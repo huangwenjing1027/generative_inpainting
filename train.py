@@ -5,8 +5,12 @@ import logging
 
 import tensorflow as tf
 import neuralgym as ng
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "１"
 
 from inpaint_model import InpaintCAModel
+import os
+
 
 
 logger = logging.getLogger()

@@ -1,5 +1,5 @@
 # parameters
-DATASET: 'celebahq'  # 'tmnist', 'dtd', 'places2', 'celeba', 'imagenet', 'cityscapes'
+DATASET: 'places2'  # 'tmnist', 'dtd', 'places2', 'celeba', 'imagenet', 'cityscapes'
 RANDOM_CROP: False
 VAL: False
 LOG_DIR: full_model_celeba_hq_256
